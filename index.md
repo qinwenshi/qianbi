@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 寂寞先生
-tagline: 这，是一个寂寞的世界……
+title: 铅笔
+tagline: 铅笔，描出精彩的世界...
 ---
 {% include JB/setup %}
 
