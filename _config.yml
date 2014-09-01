@@ -15,8 +15,8 @@ tagline: Site Tagline
 author :
   name : 施勤文
   email : sh@iqinwen.com
-  github : username
-  twitter : username
+  github : qinwenshi
+  twitter : shiqinwen
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
