@@ -1,3 +1,14 @@
+---
+layout: post
+title: 丁香园研究报告（一）
+category : 移动医疗调研
+tagline: "Supporting tagline"
+tags : [互联网, dxy,移动医疗]
+---
+{% include JB/setup %}
+# Template
+---
+
 #丁香园研究报告（一）#
 
 
