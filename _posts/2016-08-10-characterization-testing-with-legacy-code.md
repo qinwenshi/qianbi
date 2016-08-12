@@ -9,7 +9,6 @@ tags : [代码，重构,遗留代码]
 # 用 Characterization Testing 来帮助重构遗留代码
 ---
 
-#用 Characterization Testing 来帮助重构遗留代码#
 
 <p>
 Michael Feathers 最近又写了[一篇文章](https://michaelfeathers.silvrback.com/characterization-testing)讲述他关于 Characterization Testing 的作用和帮助。最近也在练习在遗留代码中通过增加测试，以让代码可读性提高。
