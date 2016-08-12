@@ -127,7 +127,7 @@ Micahel 说先要从写一个叫 x() 的测试开始。先来试试写一个测�
 	sudo java -jar fakeSMTP-2.0.jar
 	
 运行起来之后是这么个小玩意
-![fakesmtp.jpg](../image/characterization_testing/fakesmtp.jpg =650x)
+![fakeSMTP.jpg](../image/characterization_testing/fakeSMTP.jpg =650x)
 
 对我们的测试再略做修改：
 
