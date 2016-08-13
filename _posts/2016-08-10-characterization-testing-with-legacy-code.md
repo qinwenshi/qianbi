@@ -195,6 +195,7 @@ Loop 这个类的声明也是通过自动抽取MethodObject 、方法重命名�
 ![verify_mail_messages_from_file.jpg](/image/characterization_testing/verify_mail_messages_from_file.jpg){:width="450px"}
 
 我们对第二个测试进行重命名重构
+
 ![2nd_test_renaming.jpg](/image/characterization_testing/2nd_test_renaming.jpg){:width="450px"}
 
 有了这几个测试的保护，我们可以开始着手对代码的重构了。
