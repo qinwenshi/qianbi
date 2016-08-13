@@ -83,13 +83,13 @@ public void x() throws Exception {
 
 此时我们已经对第一点知识比较清楚的了解了：
 
-####我们输入少于6个参数的时候，会收到提示，并且告知系统退出
+*我们输入少于6个参数的时候，会收到提示，并且告知系统退出*
 
 因此对测试用例进行一次重命名。
 
 ![system_exit_stubbing_v4](/image/characterization_testing/system_exit_stubbing_v4.jpg){:width="450px"}
 
-####第二个测试依然从 x() 开始
+*第二个测试依然从 x() 开始*
 
 
 第二个测试用例，我们还是从以 x()命名的探索开始，这时候我们试试传入几个正确的参数看看系统会做点什么事情。为了让它真实运行，我专门注册了一个网易邮箱的小号，看看它到底要搞什么鬼（密码我打上马赛克了:D）。后面的EmailListFile，checkPeriod 和 fromName 暂时还不清楚是做什么用的，先随便填两个值：
