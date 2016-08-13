@@ -10,11 +10,11 @@ safe: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 铅笔 - 施勤文的博客
+title : 铅笔
 tagline: Site Tagline
 author :
   name : 施勤文
-  email : sh@iqinwen.com
+  email : qinwen.shi@gmail.com
   github : qinwenshi
   twitter : shiqinwen
   feedburner : feedname
