@@ -143,17 +143,18 @@ public void x() throws Exception {
 ![seam_for_infinite_loop.jpg](/image/characterization_testing/seam_for_infinite_loop.jpg){:width="450px"}
 
 Loop 这个类的声明也是通过自动抽取MethodObject 、方法重命名、Move 三次重构完成的。
+
 ![looping_object.jpg](/image/characterization_testing/looping_object.jpg){:width="450px"}
 
 这步有点风险，不过因为是编辑器自动完成、编译没有错误，同时运行之前的测试，状态保持一致。*基本上认为本次加入 Seam 的过程是安全的。*
 
 继续在测试中注入一个循环对象：
 
-![seam_for_infinite_loop.jpg](/image/characterization_testing/seam_for_infinite_loop.jpg){:width="450px"}
+![inject_looping_object.jpg](/image/characterization_testing/inject_looping_object.jpg){:width="450px"}
 
 运行测试，发现结果依然跟之前一样
 
-![seam_for_infinite_loop.jpg](/image/characterization_testing/seam_for_infinite_loop.jpg){:width="450px"}
+![result_of_fake_smtp_v1.jpg](/image/characterization_testing/result_of_fake_smtp_v1.jpg){:width="450px"}
 
 继续找原因，发现在最后部分，有一个让线程休眠的代码，而且一个单位的休眠时间是1分钟。这也是我们的单元测试执行完之后会出现疑似死循环的另一个原因了。
 
