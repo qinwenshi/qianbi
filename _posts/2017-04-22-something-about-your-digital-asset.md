@@ -90,6 +90,6 @@ slock.it从the DAO上筹集了1200万以太币，市值约2.6亿。虽然后来�
 
 一些链接：
 [Week in Ethereum News](http://www.weekinethereum.com)
-[The Ðapp Daily](https://dappdaily.com)
-[Reddit ethereum channel](https://www.reddit.com/r/ethereum)
+| [The Ðapp Daily](https://dappdaily.com)
+| [Reddit ethereum channel](https://www.reddit.com/r/ethereum)
 
